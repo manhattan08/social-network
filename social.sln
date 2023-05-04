@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "social", "social\social.csproj", "{4C3CF444-6F20-40F1-B7AE-35C927B992C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{50BE7E11-1084-44E4-B0B9-1AF6754A6F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{DA57130B-52A7-414D-AA78-3ACFDB3B4FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3CF444-6F20-40F1-B7AE-35C927B992C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3CF444-6F20-40F1-B7AE-35C927B992C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3CF444-6F20-40F1-B7AE-35C927B992C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3CF444-6F20-40F1-B7AE-35C927B992C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BE7E11-1084-44E4-B0B9-1AF6754A6F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BE7E11-1084-44E4-B0B9-1AF6754A6F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BE7E11-1084-44E4-B0B9-1AF6754A6F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BE7E11-1084-44E4-B0B9-1AF6754A6F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA57130B-52A7-414D-AA78-3ACFDB3B4FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA57130B-52A7-414D-AA78-3ACFDB3B4FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA57130B-52A7-414D-AA78-3ACFDB3B4FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA57130B-52A7-414D-AA78-3ACFDB3B4FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
