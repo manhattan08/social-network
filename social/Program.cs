@@ -1,16 +1,18 @@
+using Application.Activities;
+using Application.Core;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+using social.Extensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<DataContext>(opt =>
-{
-    opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
+builder.Services.AddApplicationServices(builder.Configuration);
 
 var app = builder.Build();
+
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 

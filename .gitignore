@@ -1,5 +1,6 @@
 bin/
 obj/
+social/appsettings.json
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
