@@ -3,6 +3,7 @@ using Application.Core;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using social.Extensions;
+using social.Middleware;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddApplicationServices(builder.Configuration);
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseCors("CorsPolicy");
 
